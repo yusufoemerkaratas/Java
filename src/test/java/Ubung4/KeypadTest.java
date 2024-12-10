@@ -1,7 +1,7 @@
 package Ubung4;
 
-import Lektiion20.Ubung4.IllegalnummmerException;
-import Lektiion20.Ubung4.Keypad;
+import Lektion20.Ubung4.IllegalnummmerException;
+import Lektion20.Ubung4.Keypad;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,6 +1,6 @@
 package Ubung4;
 
-import Lektiion20.Ubung4.ReaderandWriter;
+import Lektion20.Ubung4.ReaderandWriter;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
