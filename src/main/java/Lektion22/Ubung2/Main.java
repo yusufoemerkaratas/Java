@@ -2,17 +2,18 @@ package Lektion22.Ubung2;
 
 import java.util.*;
 
-public class Main {
-    public static void main(String[] args) throws InterruptedException {
+//public class Main {
+   // public static void main(String[] args) throws InterruptedException {
         // Sayı listeleri (Her thread farklı bir grup üzerinde çalışacak)
-        java.util.List<Integer> list1 = Arrays.asList(10, 23, 56, 101, 341);
-        List<Integer> list2 = Arrays.asList(29, 48, 87, 133, 633910099);
-        List<Integer> list3 = Arrays.asList(2, 3, 5, 7, 11, 13);
+     //   java.util.List<Integer> list1 = Arrays.asList(10, 23, 56, 101, 341);
+      //  List<Integer> list2 = Arrays.asList(29, 48, 87, 133, 633910099);
+       // List<Integer> list3 = Arrays.asList(2, 3, 5, 7, 11, 13);
 
         // Thread oluşturma
-        PrimzahlThread thread1 = new PrimzahlThread(list1);
-        PrimzahlThread thread2 = new PrimzahlThread(list2);
-        PrimzahlThread thread3 = new PrimzahlThread(list3);
+        //PrimzahlThread thread1 = new PrimzahlThread(list1);
+
+        //PrimzahlThread thread2 = new PrimzahlThread(list2);
+       /* PrimzahlThread thread3 = new PrimzahlThread(list3);
 
         // Thread'leri başlat
         thread1.start();
@@ -39,3 +40,4 @@ public class Main {
     private static class List<T> {
     }
 }
+*/
