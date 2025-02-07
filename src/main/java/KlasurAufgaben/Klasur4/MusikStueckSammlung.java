@@ -7,10 +7,10 @@ public class MusikStueckSammlung {
     Map<String,MusikStueck> collect;
 
     MusikStueckSammlung(){
-        this.collect=new HashMap();
+        this.collect=new HashMap<>();
     }
     public void musikStueckEinfuegen(MusikStueck neu){
-        if(!collect.containsKey(neu.titel)) throw new IllegalArgumentException("es ist schon in der Sammlung");
+        if(collect.containsKey(neu.titel)) throw new IllegalArgumentException("es ist schon in der Sammlung");
         else collect.put(neu.titel,neu);
     }
     public List<MusikStueck> getAlleMusikStueckeNachTitel(){
